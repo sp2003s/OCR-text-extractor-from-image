@@ -1,0 +1,111 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* This ensures the body takes at least the full height of the viewport */
+    margin: 0;
+}
+
+.flex-wrapper {
+    flex: 1; /* This ensures that the flex container takes the remaining height */
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto; /* Push the footer to the bottom */
+    text-align: center;
+    background-color: rgba(92, 27, 163, 0.89); /* Optional: Set a background color for the footer */
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    font-size: 1.07em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+b{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.9em;
+    font-weight: 300;
+    margin: 4px;
+    
+}
+nav{
+    text-align: center;
+}
+
+.ptext{
+    margin-left: 20%;
+    margin-right: 20%;
+    color: rgb(64, 64, 64);
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.boxarea{
+    text-align: center;
+    border: 2px solid rgba(0, 0, 0, 0.143);
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.14);
+    border-radius: 7px;
+    background-color: rgba(193, 203, 251, 0.376);
+}
+
+p{
+    font-size: 1.2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+input{
+    background-color: none;
+    font-size: 1.01em;
+}
+
+.inputSection{
+    text-align: center;
+    padding: 90px 0px;
+}
+
+.inputBtn{
+    float: right;
+    padding: 5px;
+    font-size: 1.08em;
+    margin: 5px;
+    width: 115px;
+    background-image: linear-gradient(134deg, rgba(140, 0, 255, 0.712) 0%, rgba(68, 99, 201, 0.811) 100%);
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: none;
+    border-radius: 6px;
+}
+
+.fileUpl{
+    background-color: white;
+    margin: 10px;
+    height: 90%;
+    border-radius: 7px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.335);
+    max-height: 90%;
+    background-color: rgb(255, 253, 252);
+}
+
+.extractBtn{
+    padding: 7px;
+    width: 150px;
+    border-radius: 6px;
+    border: none;
+    font-size: 1.15em;
+    background-color: blueviolet;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: background-color 0.4s;
+}
+
+.extractBtn:hover{
+    background-color: rgba(97, 27, 163, 0.88);
+}
+
+.content{
+    background-color: rgba(208, 208, 208, 0.66);
+    padding: 17px;
+    border-radius: 15px;
+    box-shadow: 6px 7px 6px rgba(0, 0, 0, 0.359);
+}
